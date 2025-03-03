@@ -33,7 +33,7 @@ group_chat_id = None
 async def start(update: Update, context: CallbackContext) -> None:
     global group_chat_id
     group_chat_id = update.message.chat_id  # Guardar el chat_id del grupo
-    await update.message.reply_text("Bot iniciado. ¡Hola! Soy el bot de WTCBEV. Estoy configurado para enviar encuestas los lunes y miércoles a las 8 AM para los entrenamientos de la semana. [...]")
+    await update.message.reply_text("Bot Iniciado. Hola! Estoy programado para mandar las encuestas de entrenamiento, cada lunes y miércoles a las 8 AM enviaré dichas encuestas, si por un casual no funcionan, escribid el comando /MON o /WEN para enviarlas manualmente. Para los partidos teneis que poner /JORN_['A' o 'B']_[nº de la Jornada]. IMPORTANTE, MANDAD SOLO UN COMANDO/ENCUESTA PARA EVITAR CONFUSIONES. Cualquier duda escribir por privado a @Arturitown, y si alguien quiere contribuir a mi desarrollo teneis el repositorio público de GitHub aquí : https://github.com/arturosasan/CBEV_Bot ¡UN, DOS, TRES, ELISEO/ENRIQUE!🏀")
 
 # Función para enviar encuestas de entrenamiento
 async def enviar_encuesta_entrenamiento(update: Update, context: CallbackContext, dia_semana: str) -> None:
