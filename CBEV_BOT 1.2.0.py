@@ -103,10 +103,10 @@ async def start(update: Update, context: CallbackContext) -> None:
     global GROUP_CHAT_ID
     GROUP_CHAT_ID = update.message.chat_id  
     await update.message.reply_text(
-        "🏀 Bot Iniciado. Estoy programado para enviar encuestas los Lunes y Miércoles a las 8 AM. Si por lo que sea no se envían usa /MON y /WEN 🏀 /n"
-        "🏀 Las encuestas de los partidos se tienen que hacer de forma manual, para mandarlas por comandos, utiliza /JORN_['A' / 'B']_['nº de la Jornada'] 🏀 /n"
-        "🏀 Esta versión del Bot (1.2.0) solo tiene hasta la Jornada nº 22, (no aparecen más en Swish), en cuanto se actualice la web, se añadirán más jornadas. 🏀 /n"
-        "🏀 IMPORTANTE, MANDAD SOLO UN COMANDO/ENCUESTA PARA EVITAR CONFUSIONES. 🏀 /n"
+        "🏀 Bot Iniciado. Estoy programado para enviar encuestas los Lunes y Miércoles a las 8 AM. Si por lo que sea no se envían usa /MON y /WEN 🏀 \n"
+        "🏀 Las encuestas de los partidos se tienen que hacer de forma manual, para mandarlas por comandos, utiliza /JORN_['A' / 'B']_['nº de la Jornada'] 🏀 \n"
+        "🏀 Esta versión del Bot (1.2.0) solo tiene hasta la Jornada nº 22, (no aparecen más en Swish), en cuanto se actualice la web, se añadirán más jornadas. 🏀 \n"
+        "🏀 IMPORTANTE, MANDAD SOLO UN COMANDO/ENCUESTA PARA EVITAR CONFUSIONES. 🏀 \n"
         "Cualquier duda escribir por privado a @Arturitown, y si alguien quiere contribuir a mi desarrollo teneis el repositorio público de GitHub aquí : https://github.com/arturosasan/CBEV_Bot"
 
     )
