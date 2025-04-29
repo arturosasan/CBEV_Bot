@@ -1,0 +1,17 @@
+# Ignorar el archivo de variables de entorno (protege credenciales)
+.env
+
+# Ignorar archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar configuraciones de entornos virtuales (si usas venv)
+.venv/
+env/
+
+# Archivos de logs y caché
+*.log
+*.sqlite3
+
